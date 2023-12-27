@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="mx-5 flex flex-col justify-start">
+        <h1 class="my-3 font-bold text-3xl">New Article</h1>
+        <form action="/articles" method="POST">
+            <%- include('_forms_fields') %>
+        </form>
+    </div>
+</body>
+</html>
